@@ -1,0 +1,20 @@
+.statbot_img {
+  height: 20rem;
+  width: 40rem;
+}
+
+.tech_wrap {
+  font-size: 4rem;
+}
+
+i {
+  padding: 1rem;
+}
+
+.portfolio-p1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}

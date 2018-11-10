@@ -1,3 +1,7 @@
+<h1>{{loaded}}</h1>
 <p>
   home-tools works!
 </p>
+<input type="text" [ngModel]="inputData" (ngModelChange)="inputChange($event)" placeholder="input">
+<h3>{{inputData}}</h3>
+<coingecko-beam-widget *ngIf="loaded" [type]="all" [height]="inputData" [locale]="en"></coingecko-beam-widget>
